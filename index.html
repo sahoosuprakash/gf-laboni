@@ -2,23 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Happy Girlfriend Day, Laboni 💖</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Happy Girlfriend Day Laboni ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .heart {
+      font-size: 50px;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>💖 Happy Girlfriend Day, Laboni 💖</h1>
-    <p>You fill my life with joy and love. 💕</p>
-    <button onclick="showLove()">Click for Surprise 💌</button>
-    <div id="surprise" style="display: none;">
-      <p>I love you more than words can say.❤️</p>
-      <img src="https://media.giphy.com/media/1BcfiGlOGXzQk/giphy.gif" alt="Love Gif">
-      <audio controls autoplay>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-      </audio>
-      <p class="signature">With love, Suprakash</p>
-    </div>
+    <h1>Happy Girlfriend Day, Laboni! ❤️</h1>
+    <p>From your Suprakash 💌</p>
+    <div class="heart">💖</div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
